@@ -15,7 +15,7 @@ def home_page():
     )
 
     # add a photo to the right column
-    image = Image.open("/Users/why-am-i/Desktop/Machine learning in Marketing/personal_job_website/util/data/photo.jpeg")
+    image = Image.open("/Users/why-am-i/Desktop/demoresume/util/data/photo.jpeg")
     right_col.image(image, width=200)
 
     st.markdown("---")

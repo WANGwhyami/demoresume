@@ -3,7 +3,7 @@ import base64
 
 def resume_page():
 
-    pdf_file_path = "/Users/why-am-i/Desktop/Machine learning in Marketing/personal_job_website/util/data/resume.pdf"
+    pdf_file_path = "/Users/why-am-i/Desktop/demoresume/util/data/resume.pdf"
 
     with open(pdf_file_path, "rb") as pdf_file:
         PDFbyte = pdf_file.read()
